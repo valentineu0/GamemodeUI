@@ -1,2 +1,7 @@
-# GamemodeUI
-GamemodeUI by qreardedwashere &amp; HardSiamang655 for PMMP
+
+---
+
+  `Minecraft: Bedrock Edition 1.16.20 GamemodeUI`
+   
+
+---
