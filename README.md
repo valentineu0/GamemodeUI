@@ -1,7 +1,7 @@
 
 ---
 
- `Minecraft: Bedrock Edition 1.16.20 GamemodeUI`
+ `GamemodeUI`<br />
    `Easy to use Gamemode plugin for PocketMine-MP.`
 
 ---
