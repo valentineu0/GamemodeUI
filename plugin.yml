@@ -1,1 +1,10 @@
 
+author: qreardedsbck
+name: GamemodeUI
+version: 0.1.0
+main: GamemodeUI\main
+api: 3.15.0
+
+commands: 
+   gamemodeui:
+       description: Choose your game mode.
