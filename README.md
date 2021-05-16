@@ -7,7 +7,7 @@
 
 ---
 
-[`Proceed to the download link here.`](https://www.mediafire.com/file/xdsdz6xpw0bt1q5/GamemodeUI_v0.1.0.phar/file)
+[`Proceed to the download link here.`](https://cdn.discordapp.com/attachments/710886479894675577/843614697034743859/GamemodeUI_v0.1.0.phar)
 
 ---
 
