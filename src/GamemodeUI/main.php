@@ -26,7 +26,7 @@ class main extends PluginBase {
   $this->getLogger()->info(qc::BLUE."GamemodeUI v0.2.0 Active.");
   }
   public function onCommand(CommandSender $q, Command $cmd, string $label, array $args): bool {
-    if ($cmd->getName() === "gamemodeui") {
+    if ($cmd->getName() === "gamemodeui" or "gmui") { 
     if ($q instanceof Player ){
       if ($q->hasPermission("gamemodeui.hq") or $q->isOp()) {
       $this->gm($q);
