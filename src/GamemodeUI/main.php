@@ -1,16 +1,29 @@
-
 <?php
 
+/*
+*                              _          _ 
+*                             | |        | |
+*  __ _ _ __ ___  __ _ _ __ __| | ___  __| |
+* / _` | '__/ _ \/ _` | '__/ _` |/ _ \/ _` |
+*| (_| | | |  __/ (_| | | | (_| |  __/ (_| |
+* \__, |_|  \___|\__,_|_|  \__,_|\___|\__,_|
+*    | |                                    
+*    |_|                                    
+*
+*@ github.com/qreardedisback/GamemodeUI
+*@ GamemodeUI by qreardedisback & HardSiamang655
+*/
 namespace GamemodeUI;
 
 use pocketmine\{Player, Server};
 use pocketmine\command\{Command, CommandSender, ConsoleCommandSender};
 use jojoe77777\FormAPI\{SimpleForm, CustomForm, ModalForm};
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\TextFormat as qc;
 
 class main extends PluginBase {
   public function onEnable(){
-  $this->getLogger()->info("» GamemodeUI v1.0.1 Active.");
+  $this->getLogger()->info(qc::BLUE."GamemodeUI v0.2.0 Active.");
   }
   public function onCommand(CommandSender $q, Command $cmd, string $label, array $args): bool {
     if ($cmd->getName() === "gamemodeui") {
@@ -32,25 +45,46 @@ class main extends PluginBase {
     return true;
      }
        switch($data) {
-         case 0:
-             $q->sendPopup("§8» §fYour game mode has been changed to §bSurvival§f.");
+        case 0:
+          $gm = $q->getGamemode();
+          if ($gm === 0) {
+            $q->sendPopup("§8» §fYour game mode is already §aSurvival§f.");
+            return false;
+          }
+          
+             $q->sendPopup("§8» §fYour game mode has been changed to §aSurvival§f.");
                $q->setGamemode(0);
          break;
        
        case 1: 
-         $q->sendPopup("§8» §fYour game mode has been changed to §bAdventure§f.");
+         $gm = $q->getGamemode();
+            if ($gm === 2) {
+            $q->sendPopup("§8» §fYour game mode is already §aAdventure§f.");
+            return false;
+          }
+         $q->sendPopup("§8» §fYour game mode has been changed to §aAdventure§f.");
          $q->setGamemode(2);
          
          break;
          
        case 2: 
-         $q->sendPopup("§8» §fYour game mode has been changed to §bCreative§f.");
+         $gm = $q->getGamemode();
+          if ($gm === 1) {
+            $q->sendPopup("§8» §fYour game mode is already §aCreative§f.");
+            return false;
+          }
+         $q->sendPopup("§8» §fYour game mode has been changed to §aCreative§f.");
          $q->setGamemode(1);
          
          break;
          
         case 3:
-          $q->sendPopup("§8» §fYour game mode has been changed to §bSpectator§f.");
+          $gm = $q->getGamemode();
+            if ($gm === 3) {
+            $q->sendPopup("§8» §fYour game mode is already §aSpectator§f.");
+            return false;
+          }
+          $q->sendPopup("§8» §fYour game mode has been changed to §aSpectator§f.");
           $q->setGamemode(3);
          
          break;
@@ -70,7 +104,7 @@ class main extends PluginBase {
        $gm = "Creative";
      }
      $form->setTitle("GamemodeUI");
-     $form->setContent("Choose your game mode.\nYour current game mode: §b$gm");
+     $form->setContent("Choose your game mode.\nYour current game mode: §a$gm");
      $form->addButton("Survival",0,"textures/blocks/dirt");
      $form->addButton("Adventure",0,"textures/items/bow_pulling_2");
      $form->addButton("Creative",0,"textures/blocks/diamond_block");
