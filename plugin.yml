@@ -8,4 +8,4 @@ commands:
    gamemodeui:
     description: Choose your game mode.
    gmui:
-       description: Choose your game mode
+       description: Choose your game mode.
