@@ -1,7 +1,6 @@
-
-author: qreardedsbck
+author: qreardedsbck & HardSiamang655
 name: GamemodeUI
-version: 0.1.0
+version: 0.2.0
 main: GamemodeUI\main
 api: 3.15.0
 
