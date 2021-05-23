@@ -13,18 +13,15 @@
 *@ github.com/qreardedisback/GamemodeUI
 *@ GamemodeUI by qreardedisback & HardSiamang655
 */
-namespace GamemodeUI;
+namespace qrearded\GamemodeUI;                                         
 
 use pocketmine\{Player, Server};
 use pocketmine\command\{Command, CommandSender, ConsoleCommandSender};
 use jojoe77777\FormAPI\{SimpleForm, CustomForm, ModalForm};
 use pocketmine\plugin\PluginBase;
-use pocketmine\utils\TextFormat as qc;
 
 class main extends PluginBase {
-  public function onEnable(){
-  $this->getLogger()->info(qc::BLUE."GamemodeUI v0.2.0 Active.");
-  }
+
   public function onCommand(CommandSender $q, Command $cmd, string $label, array $args): bool {
     if ($cmd->getName() === "gamemodeui" or "gmui") { 
     if ($q instanceof Player ){
