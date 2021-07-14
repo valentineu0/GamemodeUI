@@ -3,7 +3,7 @@ name: Bug
 about: Report site bugs.
 title: "{Error/Bug} Enter Title"
 labels: bug
-assignees: qreardedisback,hardsiamang655
+assignees: qreardedwastaken,hardsiamang655
 ---
 
 - [] This problem is not caused by me. 
