@@ -1,6 +1,6 @@
 ---
 name: Bug
-about: Report site bugs.
+about: Report a bug.
 title: "{Error/Bug} Enter Title"
 labels: bug
 assignees: qreardedwastaken,hardsiamang655
