@@ -2,7 +2,7 @@
 ---
 
  `Easy to use Gamemode plugin for PocketMine-MP.`<br />
-    `The plugin authorization name is` `gamemodeui.hq`<br />
+    `The plugin authorization name is` `gmui.cmd`<br />
       `by HardSiamang655 & qreardedwashere`
 
 ---
