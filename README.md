@@ -2,8 +2,8 @@
 ---
 
  `Easy to use Gamemode plugin for PocketMine-MP.`<br />
-    `The plugin authorization name is` `gmui.cmd`<br />
-      `by HardSiamang655 & qreardedwashere`
+    `by` [`HardSiamang655`](https://github.com/hardsiamang655) & [`qreardedwastaken`](https://github.com/qreardedwastaken)<br /><br>
+      `Enter the gmui.cmd permission to authorize a user's group.`
 
 ---
 
