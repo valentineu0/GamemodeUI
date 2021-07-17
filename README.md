@@ -2,7 +2,7 @@
 ---
 
  `Easy to use Gamemode plugin for PocketMine-MP.`<br />
-    `by` [`HardSiamang655`](https://github.com/hardsiamang655) & [`qreardedwastaken`](https://github.com/qreardedwastaken)<br /><br>
+    `by` [`HardSiamang655`](https://github.com/hardsiamang655) `&` [`qreardedwastaken`](https://github.com/qreardedwastaken)<br /><br>
       `Enter the gmui.cmd permission to authorize a user's group.`
 
 ---
