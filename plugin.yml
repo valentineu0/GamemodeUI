@@ -1,6 +1,6 @@
 author: qrearded
 name: GamemodeUI
-version: 0.2.0
+version: 1.0.0
 main: qrearded\GamemodeUI\main
 api: 3.21.0
 softdepend:
