@@ -6,8 +6,8 @@
 ---
 
    ### How does GamemodeUI help you?<br />
-   <br>
-    You can give gmui.cmd authorization to the player you want and have the player change the game mode at any time.
+    You can give gmui.cmd authorization to the player you want and have the player change the game mode at any time.<br />
+
 
 ---
 
