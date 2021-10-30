@@ -1,8 +1,8 @@
 author: qrearded
 name: GamemodeUI
-version: 1.0.0
+version: 1.0.1
 main: qrearded\GamemodeUI\main
-api: 3.21.0
+api: 3.25.1
 softdepend:
 - PurePerms
 
