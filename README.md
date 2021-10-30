@@ -5,7 +5,7 @@
 
 ---
 
-   [Download GamemodeUI.](https://qrearded.xyz/gmui/GamemodeUI.phar)
+   [Download GamemodeUI.](https://discord.com/channels/@me/747542990440104125/903930432255565826)
 
 ---
 
