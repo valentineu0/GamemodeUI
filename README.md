@@ -1,4 +1,4 @@
-GamemodeUI by [qreardedwastaken](https://qrearded.xyz) & [hardsiamang655](https://github.com/hardsiamang655)   ,
+GamemodeUI by [qreardedwastaken](https://doukanbhey.tech) & [hardsiamang655](https://github.com/hardsiamang655)   ,
 - [Download GamemodeUI](https://cdn.doukanbhey.tech/pocketmine-mp/GamemodeUI.phar)
 
 ![Screenshot_20210716-214321](https://user-images.githubusercontent.com/78941156/125997228-92a8705f-fdd2-404d-940d-8fee85488e96.png)
